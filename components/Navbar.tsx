@@ -65,11 +65,12 @@ export default function Navbar() {
                 <Link
                     href="/"
                     className={cn(
-                        "text-2xl font-serif tracking-widest uppercase hover:opacity-90 transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/30 rounded-md px-2 py-1",
+                        "text-xl md:text-2xl font-serif tracking-[0.2em] uppercase hover:opacity-90 transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/30 rounded-md py-1 flex items-center gap-2",
                         isScrolled ? "text-primary" : "text-white"
                     )}
                 >
-                    Hote<span className={isScrolled ? "text-foreground" : "text-white/80"}>Logo</span>
+                    <span>Majestic</span>
+                    <span className={cn("font-light", isScrolled ? "text-foreground" : "text-white/80")}>Hotel</span>
                 </Link>
 
                 {/* Navigation */}
@@ -148,7 +149,7 @@ export default function Navbar() {
                         </SheetTrigger>
                         <SheetContent side="right">
                             <SheetHeader>
-                                <SheetTitle className="font-serif tracking-widest uppercase">Ave Maria</SheetTitle>
+                                <SheetTitle className="font-serif tracking-widest uppercase">Majestic Hotel</SheetTitle>
                             </SheetHeader>
                             <div className="mt-6 flex flex-col gap-3">
                                 <Button

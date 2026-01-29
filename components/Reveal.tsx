@@ -18,8 +18,8 @@ export default function Reveal({
   className,
   delayMs = 0,
   animation = "slide",
-  threshold = 0.15,
-  rootMargin = "0px 0px -10% 0px",
+  threshold = 0,
+  rootMargin = "0px",
 }: RevealProps) {
   const ref = React.useRef<HTMLDivElement | null>(null);
   const [isVisible, setIsVisible] = React.useState(false);
