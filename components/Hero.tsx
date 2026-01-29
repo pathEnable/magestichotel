@@ -15,7 +15,7 @@ export default function Hero() {
                     backgroundImage: 'url("/magestic1.png")',
                 }}
             >
-                <div className="absolute inset-0 bg-black/40" />
+                <div className="absolute inset-0 bg-black/55" />
             </div>
 
             {/* Content */}
