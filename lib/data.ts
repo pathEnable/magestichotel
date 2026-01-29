@@ -13,7 +13,7 @@ export interface Room {
 export const hotelDetails = {
   name: "Majestic Hotel",
   location: "Parakou, Bénin",
-  address: "Quartier Arafat, Parakou",
+  address: "xxxxxxxx, Parakou",
   phone: "+229 23 61 00 00",
   email: "contact@le-majestic-hotel.com",
   description: "L'élégance au cœur de Parakou. Le Majestic Hotel allie le charme de la tradition africaine au confort moderne pour un séjour inoubliable."
@@ -50,7 +50,7 @@ export const rooms: Room[] = [
     size: 30,
     capacity: 3,
     description: "Plus d'espace et plus de confort : chambre climatisée et ventilée, parfaite pour un séjour prolongé.",
-    image: "https://images.unsplash.com/photo-1501117716987-c8e1ecb210c8?auto=format&fit=crop&w=1600&q=80",
+    image: "https://images.unsplash.com/photo-1505693314120-0d443867891c?auto=format&fit=crop&w=1600&q=80",
     amenities: ["Climatisation", "Ventilateur", "Wi‑Fi gratuit", "Bureau"]
   },
   {
